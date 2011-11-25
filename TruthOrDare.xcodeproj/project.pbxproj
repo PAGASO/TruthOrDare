@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3192D59147F84F600455D47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3192D58147F84F600455D47 /* UIKit.framework */; };
+		C3192D5B147F84F600455D47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3192D5A147F84F600455D47 /* Foundation.framework */; };
+		C3192D5D147F84F600455D47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3192D5C147F84F600455D47 /* CoreGraphics.framework */; };
+		C3192D63147F84F600455D47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3192D61147F84F600455D47 /* InfoPlist.strings */; };
+		C3192D65147F84F600455D47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3192D64147F84F600455D47 /* main.m */; };
+		C3192D69147F84F600455D47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3192D68147F84F600455D47 /* AppDelegate.m */; };
+		C3192D71147F84F600455D47 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3192D70147F84F600455D47 /* SenTestingKit.framework */; };
+		C3192D72147F84F600455D47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3192D58147F84F600455D47 /* UIKit.framework */; };
+		C3192D73147F84F600455D47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3192D5A147F84F600455D47 /* Foundation.framework */; };
+		C3192D7B147F84F600455D47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3192D79147F84F600455D47 /* InfoPlist.strings */; };
+		C3192D7E147F84F600455D47 /* TruthOrDareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3192D7D147F84F600455D47 /* TruthOrDareTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3192D74147F84F600455D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3192D4B147F84F600455D47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3192D53147F84F600455D47;
+			remoteInfo = TruthOrDare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3192D54147F84F600455D47 /* TruthOrDare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruthOrDare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3192D58147F84F600455D47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3192D5A147F84F600455D47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3192D5C147F84F600455D47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3192D60147F84F600455D47 /* TruthOrDare-Info.plist */ = {isa = PBXFileReference; path = "TruthOrDare-Info.plist"; sourceTree = "<group>"; };
+		C3192D62147F84F600455D47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3192D64147F84F600455D47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3192D66147F84F600455D47 /* TruthOrDare-Prefix.pch */ = {isa = PBXFileReference; path = "TruthOrDare-Prefix.pch"; sourceTree = "<group>"; };
+		C3192D67147F84F600455D47 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3192D68147F84F600455D47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3192D6F147F84F600455D47 /* TruthOrDareTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruthOrDareTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3192D70147F84F600455D47 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C3192D78147F84F600455D47 /* TruthOrDareTests-Info.plist */ = {isa = PBXFileReference; path = "TruthOrDareTests-Info.plist"; sourceTree = "<group>"; };
+		C3192D7A147F84F600455D47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3192D7C147F84F600455D47 /* TruthOrDareTests.h */ = {isa = PBXFileReference; path = TruthOrDareTests.h; sourceTree = "<group>"; };
+		C3192D7D147F84F600455D47 /* TruthOrDareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TruthOrDareTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3192D51147F84F600455D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3192D59147F84F600455D47 /* UIKit.framework in Frameworks */,
+				C3192D5B147F84F600455D47 /* Foundation.framework in Frameworks */,
+				C3192D5D147F84F600455D47 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3192D6B147F84F600455D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3192D71147F84F600455D47 /* SenTestingKit.framework in Frameworks */,
+				C3192D72147F84F600455D47 /* UIKit.framework in Frameworks */,
+				C3192D73147F84F600455D47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3192D49147F84F600455D47 = {
+			isa = PBXGroup;
+			children = (
+				C3192D5E147F84F600455D47 /* TruthOrDare */,
+				C3192D76147F84F600455D47 /* TruthOrDareTests */,
+				C3192D57147F84F600455D47 /* Frameworks */,
+				C3192D55147F84F600455D47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3192D55147F84F600455D47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3192D54147F84F600455D47 /* TruthOrDare.app */,
+				C3192D6F147F84F600455D47 /* TruthOrDareTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3192D57147F84F600455D47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3192D58147F84F600455D47 /* UIKit.framework */,
+				C3192D5A147F84F600455D47 /* Foundation.framework */,
+				C3192D5C147F84F600455D47 /* CoreGraphics.framework */,
+				C3192D70147F84F600455D47 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3192D5E147F84F600455D47 /* TruthOrDare */ = {
+			isa = PBXGroup;
+			children = (
+				C3192D67147F84F600455D47 /* AppDelegate.h */,
+				C3192D68147F84F600455D47 /* AppDelegate.m */,
+				C3192D5F147F84F600455D47 /* Supporting Files */,
+			);
+			path = TruthOrDare;
+			sourceTree = "<group>";
+		};
+		C3192D5F147F84F600455D47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3192D60147F84F600455D47 /* TruthOrDare-Info.plist */,
+				C3192D61147F84F600455D47 /* InfoPlist.strings */,
+				C3192D64147F84F600455D47 /* main.m */,
+				C3192D66147F84F600455D47 /* TruthOrDare-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3192D76147F84F600455D47 /* TruthOrDareTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3192D7C147F84F600455D47 /* TruthOrDareTests.h */,
+				C3192D7D147F84F600455D47 /* TruthOrDareTests.m */,
+				C3192D77147F84F600455D47 /* Supporting Files */,
+			);
+			path = TruthOrDareTests;
+			sourceTree = "<group>";
+		};
+		C3192D77147F84F600455D47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3192D78147F84F600455D47 /* TruthOrDareTests-Info.plist */,
+				C3192D79147F84F600455D47 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3192D53147F84F600455D47 /* TruthOrDare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3192D81147F84F600455D47 /* Build configuration list for PBXNativeTarget "TruthOrDare" */;
+			buildPhases = (
+				C3192D50147F84F600455D47 /* Sources */,
+				C3192D51147F84F600455D47 /* Frameworks */,
+				C3192D52147F84F600455D47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TruthOrDare;
+			productName = TruthOrDare;
+			productReference = C3192D54147F84F600455D47 /* TruthOrDare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3192D6E147F84F600455D47 /* TruthOrDareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3192D84147F84F600455D47 /* Build configuration list for PBXNativeTarget "TruthOrDareTests" */;
+			buildPhases = (
+				C3192D6A147F84F600455D47 /* Sources */,
+				C3192D6B147F84F600455D47 /* Frameworks */,
+				C3192D6C147F84F600455D47 /* Resources */,
+				C3192D6D147F84F600455D47 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3192D75147F84F600455D47 /* PBXTargetDependency */,
+			);
+			name = TruthOrDareTests;
+			productName = TruthOrDareTests;
+			productReference = C3192D6F147F84F600455D47 /* TruthOrDareTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3192D4B147F84F600455D47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C3192D4E147F84F600455D47 /* Build configuration list for PBXProject "TruthOrDare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3192D49147F84F600455D47;
+			productRefGroup = C3192D55147F84F600455D47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3192D53147F84F600455D47 /* TruthOrDare */,
+				C3192D6E147F84F600455D47 /* TruthOrDareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3192D52147F84F600455D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3192D63147F84F600455D47 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3192D6C147F84F600455D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3192D7B147F84F600455D47 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C3192D6D147F84F600455D47 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3192D50147F84F600455D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3192D65147F84F600455D47 /* main.m in Sources */,
+				C3192D69147F84F600455D47 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3192D6A147F84F600455D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3192D7E147F84F600455D47 /* TruthOrDareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3192D75147F84F600455D47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3192D53147F84F600455D47 /* TruthOrDare */;
+			targetProxy = C3192D74147F84F600455D47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3192D61147F84F600455D47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3192D62147F84F600455D47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3192D79147F84F600455D47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3192D7A147F84F600455D47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3192D7F147F84F600455D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3192D80147F84F600455D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3192D82147F84F600455D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TruthOrDare/TruthOrDare-Prefix.pch";
+				INFOPLIST_FILE = "TruthOrDare/TruthOrDare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3192D83147F84F600455D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TruthOrDare/TruthOrDare-Prefix.pch";
+				INFOPLIST_FILE = "TruthOrDare/TruthOrDare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C3192D85147F84F600455D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TruthOrDare.app/TruthOrDare";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TruthOrDare/TruthOrDare-Prefix.pch";
+				INFOPLIST_FILE = "TruthOrDareTests/TruthOrDareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C3192D86147F84F600455D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TruthOrDare.app/TruthOrDare";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TruthOrDare/TruthOrDare-Prefix.pch";
+				INFOPLIST_FILE = "TruthOrDareTests/TruthOrDareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3192D4E147F84F600455D47 /* Build configuration list for PBXProject "TruthOrDare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3192D7F147F84F600455D47 /* Debug */,
+				C3192D80147F84F600455D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3192D81147F84F600455D47 /* Build configuration list for PBXNativeTarget "TruthOrDare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3192D82147F84F600455D47 /* Debug */,
+				C3192D83147F84F600455D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3192D84147F84F600455D47 /* Build configuration list for PBXNativeTarget "TruthOrDareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3192D85147F84F600455D47 /* Debug */,
+				C3192D86147F84F600455D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3192D4B147F84F600455D47 /* Project object */;
+}
